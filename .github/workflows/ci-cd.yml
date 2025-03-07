@@ -30,7 +30,7 @@ jobs:
 
       - id: coverage
         name: Code Coverage Report
-        uses: irongut/CodeCoverageSummary@1.3.0
+        uses: irongut/CodeCoverageSummary@v1.3.0
         with:
           filename: WiredBrain.Tests/TestResults/**/coverage.cobertura.xml
           badge: false
